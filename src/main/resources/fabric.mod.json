@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "bsmpplushies",
+	"version": "${version}",
+	"name": "BSMP Plushies",
+	"description": "Invoca un pequeño peluche que usa tu skin (kin) y muestra tu nombre.",
+	"authors": ["BSMP"],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/bsmpplushies/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["net.bsmp.plushies.BsmpPlushiesMod"],
+		"client": ["net.bsmp.plushies.client.BsmpPlushiesClient"]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "1.20.1",
+		"fabric-api": "*"
+	}
+}
